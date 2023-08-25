@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div.box {
+  width: 50%;
+  background-color: purple;
+  color: white;
+  margin: 150px auto;
+  padding: 25px;
+  border-radius: 25px;
+  font-family: sans-serif;
+}
+div.box > * {
+  margin: 20px 0;
+}
